@@ -4,8 +4,10 @@
   "description": "Track stats for Apex Legends",
   "main": "app.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js --ignore sessions"
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run serve --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",

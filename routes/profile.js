@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 const fetch = require('node-fetch');
-const env = require('dotenv');
 
 router.get('/:platform/:gamertag', async (req, res) => {
     try{
