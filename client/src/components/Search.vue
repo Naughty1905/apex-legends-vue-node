@@ -33,7 +33,21 @@
         },
         beforeCreate() {
           document.body.className = "body-bg-image"
-        }
+        },
+        methods: {
+            onSubmit(){
+                if(!this.gamertag){
+                    this.$toasted.show("Пожалуйста введите логин", {
+                        duration: 1500,
+                        icon: {
+                            name:'exclamation-circle'
+                        }
+                    })
+                } else {
+                    this.$router.push(`/profile/${this.platform}/${this.gamertag}`)
+                }
+            }
+        },
     }
 </script>
 
