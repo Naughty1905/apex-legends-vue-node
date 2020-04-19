@@ -1,5 +1,6 @@
 # Apex Legends Stats App
 App for tracking different statistics of different players in the Apex Legends</br>
+</br>
 <img src="https://github.com/Naughty1905/apex-legends-vue-node/blob/master/apex-legends.gif">
 
 # Technologies:
