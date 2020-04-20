@@ -25,11 +25,6 @@ TRACKER_API_KEY={YOUR_API_KEY}
 # MVP Functionality
   Track stats for the game Apex Legends on the PlayStation, Xbox, Origin platforms</br>
 
-# Authors
-  <a href="https://github.com/Naughty1905"> Istomin Ivan </a> </br>
-
-# Next steps:
- Sorting statistics by seasons</br>
 
  
  
