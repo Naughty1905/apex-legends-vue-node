@@ -18,7 +18,7 @@ TRACKER_API_KEY={YOUR_API_KEY}
   Commands for setting dependencies and starting the project</br>
 ``` 
    npm install
-   cd /client && npm install
+   cd client && npm install
    cd .. && npm run dev
 ```
 
