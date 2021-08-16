@@ -7,7 +7,8 @@
     "start": "node app.js",
     "server": "nodemon app.js",
     "client": "npm run serve --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -24,13 +25,16 @@
   },
   "homepage": "https://github.com/Naughty1905/apex-legends-vue-node#readme",
   "dependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
     "concurrently": "^5.1.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "morgan": "^1.10.0",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.3",
+    "husky": "^7.0.0"
   }
 }
